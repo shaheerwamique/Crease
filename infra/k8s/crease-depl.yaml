@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crease-depl
+spec:
+  replicas: 1
+  selector: 
+    matchLabels:
+      app: crease
+  template:
+    metadata:
+      labels:
+        app: crease
+    spec:
+      containers:
+        - name: crease
+          image: shaheerwmk/crease:0.0.1
