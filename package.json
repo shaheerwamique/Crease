@@ -4,7 +4,7 @@
   "description": "",
   "main": "crease.js",
   "scripts": {
-    "start": "nodemon crease.js"
+    "start": "nodemon programs/basics"
   },
   "keywords": [],
   "author": "",
